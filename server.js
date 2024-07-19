@@ -56,5 +56,3 @@ app.delete('/users/:id', async (request, response) => {
 });
 
 app.listen(3000);
-
-//database-password - 0NNJEQbhHJXAbbc4
