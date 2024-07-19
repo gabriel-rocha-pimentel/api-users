@@ -9,8 +9,8 @@
   },
   "scripts": {
     "start": "node server.js",
-    "build": "npx prisma generate && npm run build:server",
-    "build:server": "echo 'No specific build command for server'",
+    "build": "npx prisma generate",
+    "prestart": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
