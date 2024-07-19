@@ -8,6 +8,8 @@ const prisma = new PrismaClient();
 app.use(express.json());
 app.use(cors())
 
+const port = process.env.PORT || 3000;
+
 app.post('/users', async (request, response) => {
 	await prisma.user.create({
 		data: {
