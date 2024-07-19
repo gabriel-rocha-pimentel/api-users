@@ -2,13 +2,13 @@
   "name": "user-register",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "engines": {
     "node": "16.x"
   },
   "scripts": {
-    "start": "node src/main.jsx",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
