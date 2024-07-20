@@ -1,3 +1,12 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.js" }]
+  "version": 2,
+  "builds": [
+    { "src": "index.js", "use": "@vercel/node" }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.js" }
+  ],
+  "env": {
+    "DATABASE_URL": "mongodb+srv://gabriel-rocha:0NNJEQbhHJXAbbc4@users-register.ssm9ywm.mongodb.net/users-register?retryWrites=true&w=majority&appName=users-register"
+  }
 }
