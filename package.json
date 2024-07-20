@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "vercel-build": "npx prisma db push",
+    "vercel-build": "npx prisma migrate",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
